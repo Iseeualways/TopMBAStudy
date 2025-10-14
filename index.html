@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top MBA Study</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    /* ==============================
+   CSS Boilerplate / Reset
+============================== */
+
+    /* Box sizing & Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #ffffff;
+    }
+
+    /* Remove default list styles */
+    ul,
+    ol {
+      list-style: none;
+    }
+
+    /* Remove default link styles */
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+
+    /*====================================================== NAVBAR ===================================================*/
+
+
+    /* Top contact bar */
+    .top-bar {
+      background: #ff9000;
+      color: #fff;
+      padding: 8px 0;
+      font-size: 14px;
+    }
+
+    .top-bar a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .logo {
+      height: 50px;
+    }
+
+    .logo img {
+      width: 11%;
+    }
+
+    /* Logo/Header */
+    .header-main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 20px;
+      background: #fff;
+    }
+
+    /* 
+    a {
+      text-decoration: none;
+      transition: all 0.3s ease;
+      border-radius: 8px;
+      position: relative;
+    }
+
+    a::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      background-color: rgba(166, 166, 166, 0.4);
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -0.25em;
+      height: 2px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover::after {
+      width: 100%;
+      animation: pulse11 1s;
+      box-shadow: 0 0 0 1em transparent;
+    }
+
+    @keyframes pulse11 {
+      0% {
+        box-shadow: 0 0 0 0 rgba(166, 166, 166, 0.4);
+      }
+
+      100% {
+        box-shadow: 0 0 0 1em transparent;
+      }
+    } */
+
+
+    /* Navbar */
+    .navbar-custom {
+      background: #222;
+    }
+
+    .navbar-custom .nav-link {
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .navbar-custom .nav-link:hover {
+      color: #ff9000;
+    }
+
+    .navbar-nav {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      text-transform: uppercase;
+    }
+
+
+    /* Mega/Dropdown */
+    .dropdown-menu {
+      transition: all 0.3s ease;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      text-align: center;
+      max-width: 800px;
+    }
+
+    /* Social Buttons */
+    .social-icons {
+      position: fixed;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 999;
+    }
+
+    .social-icons a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: #555;
+      color: #fff;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      background: #ff9000;
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .top-bar {
+        font-size: 12px;
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top Contact Bar -->
+  <div class="top-bar text-center">
+    CONTACT: +91 9036 0200 16, +91 9036 0200 36 &nbsp;&nbsp;
+    <strong>TOLL FREE: 1800 120 8696</strong> &nbsp;&nbsp;
+    EMAIL: <a href="mailto:info@topmbastudy.com">info@topmbastudy.com</a>
+  </div>
+
+  <!-- Header -->
+  <div class="header-main container">
+    <div class="logo">
+      <img src="https://topmbastudy.com/wp-content/uploads/2017/03/Untitled-3_TOP-MBA-1.png" alt="Top MBA Study">
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand text-white d-lg-none" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon" style="color:#fff;"><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Our Story</a></li>
+               <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Our Story</a></li>
+               <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Our Story</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Why MBA</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Benefits</a></li>
+              <li><a class="dropdown-item" href="#">Opportunities</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">MBA Colleges</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Top Colleges</a></li>
+              <li><a class="dropdown-item" href="#">Admission Process</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-section ">
+    <div class="carousel">
+      <div class="slide active"
+        style="background-image: url('https://www.iese.edu/wp-content/uploads/2024/12/Recruiting-home-slider-2.jpg');">
+      </div>
+      <div class="slide"
+        style="background-image: url('https://cdn.pixabay.com/photo/2020/01/10/11/11/oxford-4755069_960_720.jpg');">
+      </div>
+      <div class="slide"
+        style="background-image: url('https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849826_1280.jpg');">
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <button id="prevBtn" class="carousel-btn">&#10094;</button>
+    <button id="nextBtn" class="carousel-btn">&#10095;</button>
+
+
+
+  </header>
+  <!-- Rotating White SVG Button -->
+  <a href="#" class="link hero-link">
+    <svg viewBox='0 0 200 200' width='120' height='120' xmlns='http://www.w3.org/2000/svg' class="link__svg"
+      aria-labelledby="link1-title link1-desc">
+      <title id="link1-title">TOP MBA COLLEGES</title>
+      <desc id="link1-desc">A rotating link with text placed around a circle with an arrow inside</desc>
+
+      <path id="link-circle" class="link__path" d="M 20, 100 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0" stroke="none"
+        fill="none" />
+
+      <path class="link__arrow" d="M 75 100 L 125 100 L 110 85 M 125 100 L 110 115" fill="none" />
+
+      <text class="link__text">
+        <textPath href="#link-circle" stroke="none">
+          TOP-----MBA-----COLLEGES-----
+        </textPath>
+      </text>
+    </svg>
+  </a>
+
+  <style>
+    .hero-section {
+
+      position: relative;
+      min-height: 70vh;
+      overflow: hidden;
+    }
+
+    .hero-section .carousel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .hero-section .slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .hero-section .slide.active {
+      opacity: 1;
+    }
+
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+      overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .carousel-btn::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      transform: scale(0);
+      transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .carousel-btn:hover::before {
+      transform: scale(1.5);
+    }
+
+    .carousel-btn:hover {
+      color: #000;
+      border-color: #fff;
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    #prevBtn {
+      left: 40px;
+    }
+
+    #nextBtn {
+      right: 40px;
+    }
+
+    /* ========hero button */
+    /* Rotating SVG Button */
+    .hero-link {
+      position: absolute;
+      top: 83%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      text-decoration: none;
+      background-color: #ff9900;
+      border-radius: 50%;
+      padding: 3px;
+
+    }
+
+    .link {
+      width: 120px;
+      height: 120px;
+      display: inline-block;
+      font: 500 2.1rem "Josefin Sans";
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .link__svg {
+      width: 100%;
+      height: auto;
+      transform-box: fill-box;
+      fill: #000000;
+      /* White fill for visibility */
+      stroke: #000000;
+      /* White stroke for text & arrow */
+      stroke-width: 0.2em;
+      /* Slightly thicker for visibility */
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      border-radius: 50%;
+
+    }
+
+    .link__arrow {
+      transform-origin: 50% 50%;
+      transition: transform 0.3s cubic-bezier(0.32, 0, 0.67, 0);
+    }
+
+    .link:hover .link__arrow {
+      transform: scale(1.1);
+      transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+    }
+
+    .link__text {
+      animation: rotateReverse 10s linear infinite;
+      transform-origin: 50% 50%;
+    }
+
+    .link:hover .link__text {
+      animation-play-state: paused;
+    }
+
+    @keyframes rotateReverse {
+      to {
+        transform: rotate(-360deg);
+      }
+    }
+  </style>
+
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    let current = 0;
+    let slideInterval = setInterval(nextSlide, 5000);
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+      current = index;
+    }
+
+    function nextSlide() {
+      let next = (current + 1) % slides.length;
+      showSlide(next);
+    }
+
+    function prevSlide() {
+      let prev = (current - 1 + slides.length) % slides.length;
+      showSlide(prev);
+    }
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      nextSlide();
+      resetInterval();
+    });
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      prevSlide();
+      resetInterval();
+    });
+
+    function resetInterval() {
+      clearInterval(slideInterval);
+      slideInterval = setInterval(nextSlide, 5000);
+    }
+  </script>
+
+  <!--========================================================= ABOUT US SECTION ====================================================-->
+
+  <section class="aboutus">
+    <div class="container mt-5 pt-5 g-0">
+      <div class="row ">
+        <!-- Left Content -->
+        <div class="col-md-6 content-left">
+          <h2>TOP MBA STUDY</h2>
+          <p>topmbastudy.com provides MBA Admission 2020 in Bangalore, endeavor of Learntech Edu Solutions Pvt. Ltd.,
+            which is India’s first ISO certified MBA Educational Consultancy. Headquartered in Bangalore, it is
+            dedicated towards management education counseling and MBA admission guidance for a number of prestigious
+            institutions. Our placement division has a panel of professionals who provide campus interview and placement
+            programs. Comprehensive admission and career guidance is done through an experienced team, who clearly
+            guides the management education process.</p>
+
+          <p>topmbastudy.com has a very strong foundation in business management education, which helps youngsters build
+            outstanding careers. We provide the right knowledge on the subject of management courses, which assists
+            students to lead life successfully in the business world.</p>
+
+          <p>topmbastudy.com will give you a complete overview of MBA colleges in Bangalore, MBA admission in Bangalore,
+            MBA Colleges under Bangalore University, Top MBA Colleges in Bangalore, List of MBA Colleges in Bangalore,
+            MBA College Admission, MBA Courses in Bangalore, Best MBA Colleges in Bangalore, Private MBA Colleges in
+            Bangalore, MBA Institutes in Bangalore, Top 5 MBA Colleges in Bangalore, B-Schools in Bangalore for MBA, Top
+            MBA Colleges under VTU in Bangalore, MBA Colleges in Karnataka, and so on. In this modern era, MBA courses
+            play a vital role in the growth of society, offering excellent career opportunities in the management field.
+          </p>
+
+          <p>Rapid and extensive penetration of topmbastudy.com has transformed management education to be simpler,
+            where empowered students can explore their ideas in the business field to generate wealth in society. We
+            adopt an interdisciplinary approach that integrates technology and business management. Students can pursue
+            MBA by choosing top colleges via topmbastudy.com, which is designed with a clear focus on knowledge models
+            of business courses.</p>
+
+          <p>topmbastudy.com is a premier management educational consultancy which provides quality education services
+            to students. Our challenge is to afford business education to students where they can develop new cognitive
+            skills to manage complex organizations in this business era. Our placement team helps students decide which
+            college to opt for based on their ranking criteria. We build strong management and business education bonds
+            at the national and multinational levels.</p>
+
+        </div>
+
+        <!-- Right Contact Form -->
+        <div class="col-md-6">
+
+          <form class="contact-form">
+            <h2 class="display-4">Contact Form</h2>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="name" placeholder="Name" required>
+              <label for="name">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="email" placeholder="Email" required>
+              <label for="email">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="tel" class="form-control" id="mobile" placeholder="Mobile" required>
+              <label for="mobile">Mobile</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="message" rows="5" placeholder="Message" required></textarea>
+              <label for="message">Message</label>
+            </div>
+            <style>
+              #message.form-control {
+                height: 200px !important;
+              }
+
+              label {
+                color: #000000 !important;
+                opacity: 1;
+              }
+            </style>
+            <a href="#" class="animated-btn">
+              <span class="text">SUBMIT</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.66669 11.3334L11.3334 4.66669" stroke="white" stroke-width="1.33333" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M4.66669 4.66669H11.3334V11.3334" stroke="white" stroke-width="1.33333" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <style>
+    .aboutus {
+      position: relative;
+      background-image: url('background.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      z-index: 1;
+    }
+
+    /* Dark overlay */
+    .aboutus::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.8);
+      /* Adjust opacity: 0.3 - 0.7 */
+      z-index: -1;
+    }
+
+    /* ===========================================================BUTTON FOR ALL ======================================================*/
+    .animated-btn {
+      font-size: 16px;
+      font-weight: 600;
+      background-color: #fd9b28;
+      padding: 24px 24px 24px 32px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 99px;
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+      transition: all 0.5s cubic-bezier(.77, 0, .175, 1);
+    }
+
+    .animated-btn .text {
+      color: #fff;
+      line-height: 1;
+      position: relative;
+      z-index: 5;
+      margin-right: 32px;
+    }
+
+    .animated-btn svg {
+      display: inline-block;
+      position: relative;
+      z-index: 5;
+      transform: rotate(0deg) translateX(0);
+      transform-origin: left;
+      transition: all 0.5s cubic-bezier(.77, 0, .175, 1);
+    }
+
+    /* Background circle */
+    .animated-btn::before {
+      content: '';
+      background-color: #2b2b2b;
+      width: 32px;
+      height: 32px;
+      display: block;
+      position: absolute;
+      z-index: 1;
+      border-radius: 99px;
+      top: 50%;
+      right: 16px;
+      transform: translateY(-50%);
+      transition: all 0.5s cubic-bezier(.77, 0, .175, 1);
+    }
+
+    /* Hover animation */
+    .animated-btn:hover svg {
+      transform: rotate(45deg) translateX(-8px);
+    }
+
+    .animated-btn:hover::before {
+      width: 100%;
+      height: 100%;
+      right: 0;
+    }
+
+    /* =========================================================CONTENT OF THIS SECTION==================================================== */
+
+    .content-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .content-left h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #ffae00;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 0.8s forwards 0.2s;
+    }
+
+    .content-left p {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 0.8s forwards 0.4s;
+    }
+
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* ===== Contact Form ===== */
+    .contact-form {
+      background: transparent;
+      padding: 40px;
+      border-radius: 20px;
+      transition: all 0.4s ease;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 0.8s forwards 0.3s;
+    }
+
+    /* Fade Up Animation */
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Form Controls */
+    .contact-form .form-control {
+      border-radius: 10px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      transition: all 0.3s ease;
+      background: transparent;
+    }
+
+    /* Floating Label Animation */
+    .form-floating label {
+      color: #aaa;
+      transition: all 0.3s ease;
+    }
+
+    .form-control:focus+label,
+    .form-control:not(:placeholder-shown)+label {
+      transform: translateY(-1.5em);
+      font-size: 0.85rem;
+      color: #2e86de;
+      font-weight: 600;
+    }
+
+    /* Input Focus Glow */
+    .contact-form .form-control:focus {
+      box-shadow: 0 0 15px rgba(46, 134, 222, 0.4);
+      border-color: #2e86de;
+    }
+
+    /* Button */
+    .contact-form button {
+      background: linear-gradient(135deg, #2e86de, #1b4f9c);
+      color: #fff;
+      border: none;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.4s ease;
+    }
+
+    .contact-form button::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: -100%;
+      background: rgba(255, 255, 255, 0.2);
+      transform: skewX(-30deg);
+      transition: all 0.5s ease;
+    }
+
+    .contact-form button:hover::after {
+      left: 200%;
+    }
+
+    .contact-form button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(46, 134, 222, 0.4);
+    }
+
+    /* Responsive */
+    @media(max-width:768px) {
+      .contact-form {
+        margin-top: 30px;
+      }
+    }
+  </style>
+
+
+  <!-- ================================================CARDS FOR VISION AND MISSION================================================== -->
+
+
+
+
+  <section class="stories">
+    <header class="stories-head">
+      <div class="stories-badge">Stories.</div>
+      <h2 class="stories-sub">We have a lot to tell.</h2>
+    </header>
+
+    <div class="stories-grid">
+      <article class="story">
+        <div class="story-media">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1600&auto=format&fit=crop"
+            alt="Graduation hall">
+        </div>
+        <div class="story-cap">
+          <h3 class="story-title">Welcomes New MBA and MiM Classes</h3>
+          <p class="story-kicker">Campus · Programs</p>
+          <a href="btn">read more</a>
+        </div>
+      </article>
+
+      <article class="story">
+        <div class="story-media">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1600&auto=format&fit=crop"
+            alt="Chandelier tech">
+        </div>
+        <div class="story-cap">
+          <h3 class="story-title">Entrepreneurship in Quantum Technologies</h3>
+          <p class="story-kicker">Research · Innovation</p>
+          <a href="btn">read more</a>
+        </div>
+      </article>
+
+      <article class="story">
+        <div class="story-media">
+          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1600&auto=format&fit=crop"
+            alt="Speaker at podium">
+        </div>
+        <div class="story-cap">
+          <h3 class="story-title">Executive Leadership Insights</h3>
+          <p class="story-kicker">Opinion · Leadership</p>
+          <a href="btn">read more</a>
+        </div>
+      </article>
+
+      <article class="story">
+        <div class="story-media">
+          <img src="https://images.unsplash.com/photo-1460518451285-97b6aa326961?q=80&w=1600&auto=format&fit=crop"
+            alt="Campus lake">
+        </div>
+        <div class="story-cap">
+          <h3 class="story-title">Sustainable Campus Initiatives</h3>
+          <p class="story-kicker">Community · Sustainability</p>
+          <a href="btn">read more</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <style>
+    :root {
+      --bg: #3f3f3f;
+      --text: #fff;
+      --accent: #ffb700;
+    }
+
+    .stories {
+      padding: 50px 20px;
+      background: var(--bg);
+      min-height: 70vh;
+      margin-bottom: 100px;
+    }
+
+    .stories-head {
+      display: flex;
+      align-items: flex-end;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .stories-badge {
+      background: rgb(255, 208, 0);
+      color: #111;
+      font-weight: 800;
+      font-size: 40px;
+      padding: 10px 15px;
+      border-radius: 100px;
+    }
+
+    .stories-sub {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .stories-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px;
+    }
+
+    .story {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      background: #111;
+      cursor: pointer;
+      transition: transform 0.5s ease;
+    }
+
+    .story-media {
+      height: 350px;
+      overflow: hidden;
+    }
+
+    .story-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease, filter 0.6s ease;
+    }
+
+    /* Partial content visible initially */
+    .story-cap {
+      background: rgba(116, 116, 116, 0.85);
+      color: var(--text);
+      padding: 20px;
+      position: absolute;
+      bottom: -40px;
+      /* partially visible */
+      width: 100%;
+      transform: translateY(0);
+      transition: bottom 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+      height: 25vh;
+    }
+
+    .story:hover .story-cap {
+      bottom: 0;
+      /* fully expanded */
+    }
+
+    .story:hover img {
+      transform: scale(1.12);
+      filter: brightness(60%);
+    }
+
+    .story-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .story-kicker {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    /* Responsive */
+    @media(max-width:1200px) {
+      .stories-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .story-media {
+        height: 180px;
+      }
+    }
+
+    @media(max-width:720px) {
+      .stories-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .story-media {
+        height: 150px;
+      }
+    }
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.utils.toArray(".story").forEach((card, i) => {
+      gsap.from(card, {
+        scrollTrigger: {
+          trigger: card,
+          start: "top 85%",
+        },
+        y: 40,
+        opacity: 0,
+        duration: 0.8,
+        delay: i * 0.1,
+        ease: "power2.out"
+      });
+    });
+  </script>
+
+  <!-- ================================================top mcs photo section ===============================================-->
+
+<section class="p-5 text-center">
+  <h2 class="text-center mb-4">MBA Admission in Bangalore</h2>
+
+  <div class="container d-flex flex-column align-items-center">
+    <img src="https://topmbastudy.com/wp-content/uploads/2015/12/mba-admission-in-2017-1349x350.jpg" 
+         alt="" class="img-fluid mb-4">
+
+    <button class="btn btn-primary w-100 mx-auto readmore-btn">Read More</button>
+  </div>
+</section>
+
+<style>
+.readmore-btn {
+  max-width: 400px; /* keeps it elegant, not stretched edge-to-edge on big screens */
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #ffb300, #ffaa00);
+  border: none;
+}
+
+.readmore-btn:hover {
+  background: linear-gradient(135deg, #000000, #000000);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(107, 91, 255, 0.3);
+}
+</style>
+
+
+
+  <!-- ====================================================COLLEGE CARDS ===============================================-->
+
+  <!-- Colleges Section -->
+  <section>
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>MBA Colleges in India</h2>
+        <p>Explore top MBA colleges across major cities in India</p>
+      </div>
+      <div class="colleges-grid p-5">
+        <div class="college-card">
+          <div class="college-img">
+            <img src="https://topmbastudy.com/wp-content/uploads/2015/12/college-aj-300x200.jpg"
+              alt="MBA Colleges in Bangalore">
+          </div>
+          <div class="college-content">
+            <h3>MBA Colleges in<br> Bangalore</h3>
+            <a href="#" class="btn bg-warning">Explore</a>
+          </div>
+        </div>
+        <div class="college-card">
+          <div class="college-img">
+            <img src="https://topmbastudy.com/wp-content/uploads/2015/12/annauniversity-300x200.jpg"
+              alt="MBA Colleges in Chennai">
+          </div>
+          <div class="college-content">
+            <h3>MBA Colleges in<br> Chennai</h3>
+            <a href="#" class="btn bg-warning">Explore</a>
+          </div>
+        </div>
+        <div class="college-card">
+          <div class="college-img">
+            <img src="https://topmbastudy.com/wp-content/uploads/2015/12/amrita-college-300x200.jpeg"
+              alt="MBA Colleges in Coimbatore">
+          </div>
+          <div class="college-content">
+            <h3>MBA Colleges in<br> Coimbatore</h3>
+            <a href="#" class="btn bg-warning">Explore</a>
+          </div>
+        </div>
+        <div class="college-card">
+          <div class="college-img">
+            <img src="https://topmbastudy.com/wp-content/uploads/2015/12/fore-school-of-management-300x200.jpg"
+              alt="MBA Colleges in Delhi">
+          </div>
+          <div class="college-content">
+            <h3>MBA Colleges in<br> Delhi</h3>
+            <a href="#" class="btn bg-warning">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="#" class="btn bg-warning btn-lg">View All Cities</a>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    /* Colleges Section */
+    .colleges-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .college-card {
+      background: white;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      border: 2px solid rgb(255, 204, 0);
+    }
+
+    .college-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .college-img {
+      height: 180px;
+      overflow: hidden;
+    }
+
+    .college-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .college-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .college-content h3 {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+  </style>
+
+
+  <!-- =====================================================LATEST NEWS SECTION ================================================-->
+
+  <section class="grid mt-5">
+    <!-- Left column -->
+    <article class="left-card">
+      <div class="img">
+        <img src="https://topmbastudy.com/wp-content/uploads/2015/12/114-1-600x600.jpg" alt="">
+      </div>
+      <div class="caption-wrap text-end">
+        <div class="rule"></div><br>
+        <div>
+          <div class="kicker">Higher Education</div>
+          <h2 class="title bg-warning p-1">NEW ONLINE LEARNING PLATFORM AIMS TO MAKE COLLEGE EDUCATION ACCESSIBLE TO ALL
+          </h2>
+          <div class="by">Emma Johnson</div>
+          <p class="dek">The platform offers affordable courses and degrees, helping students from remote areas gain
+            quality education without relocating.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Center column -->
+    <article class="center-block center">
+      <div class="thin-rule"></div>
+      <div class="kicker">School Innovations</div>
+      <h2 class="title bg-warning p-1">AI TOOLS REVOLUTIONIZE CLASSROOM TEACHING METHODS</h2>
+      <div class="by">Liam Smith</div>
+      <p class="dek">Schools are integrating AI tools to personalize learning, allowing students to progress at their
+        own pace and enhancing teacher efficiency.</p>
+      <div class="img">
+        <img src="https://topmbastudy.com/wp-content/uploads/2020/03/1-1.jpg" alt="">
+      </div>
+    </article>
+  </section>
+
+
+  <style>
+    :root {
+      --ink: #111218;
+      --muted: #6a6f7d;
+      --accent: #6b5bff;
+      /* category color like screenshot */
+      --rule: #111218;
+      --rail-gap: 26px;
+      --col-gap: 34px;
+      /* generous whitespace between columns */
+      --lead: 1.15;
+    }
+
+    /* Title */
+    .hdr {
+      font-family: "Roboto Condensed", Roboto, system-ui, Arial, Sans-Serif;
+      font-weight: 900;
+      letter-spacing: -.01em;
+      line-height: 1;
+      font-size: clamp(34px, 5.2vw, 56px);
+      margin: 6px 0 18px;
+    }
+
+    /* Grid: 3 editorial columns with stagger */
+    .grid {
+      display: grid;
+      grid-template-columns: 1.15fr 1.25fr;
+      gap: var(--col-gap);
+      align-items: start;
+      padding-inline: 200px;
+    }
+
+    @media (max-width: 1100px) {
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 22px
+      }
+    }
+
+    /* Left big image card */
+    .left-card {
+      display: block;
+    }
+
+    .left-card .img {
+      position: relative;
+      border: 1px solid #e8e8ef;
+      border-radius: 2px;
+      overflow: hidden;
+      width: 100%;
+      aspect-ratio: 4/3;
+      background: #eceef4;
+    }
+
+    .left-card .img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .left-card .caption-wrap {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      column-gap: 16px;
+      align-items: start;
+    }
+
+    .rule {
+      width: 36px;
+      height: 6px;
+      background: var(--rule);
+      margin-top: 6px;
+      margin-left: 92%;
+    }
+
+    .kicker {
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 1;
+      margin-bottom: 8px;
+      align-content: end !important;
+    }
+
+    .left-card .title {
+      font-weight: 900;
+      letter-spacing: -.01em;
+      line-height: 1.05;
+      font-size: clamp(22px, 2.2vw, 28px);
+      margin: 4px 0 8px;
+    }
+
+    .by {
+      font-size: 12px;
+      color: #7b8190;
+      letter-spacing: .02em;
+      margin: 6px 0 10px;
+    }
+
+    .dek {
+      font-size: 14px;
+      color: #3f4553;
+      line-height: 1.5;
+      max-width: 54ch;
+    }
+
+    /* Center: text first block with thin rule above */
+    .center-block {
+      display: block;
+    }
+
+    .thin-rule {
+      width: 46px;
+      height: 4px;
+      background: #0f0f14;
+      margin: 12px 0 10px;
+    }
+
+    .center .kicker {
+      margin-top: 2px
+    }
+
+    .center .title {
+      font-weight: 900;
+      letter-spacing: -.01em;
+      line-height: 1.05;
+      font-size: clamp(22px, 2.4vw, 30px);
+      margin: 4px 0 10px;
+    }
+
+    .center .dek {
+      font-size: 14px;
+      color: #3f4553;
+      line-height: 1.55;
+      max-width: 60ch
+    }
+
+    .center .img {
+      margin-top: 18px;
+      border: 1px solid #ececf4;
+      border-radius: 2px;
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      background: #eceef4;
+    }
+
+    .center .img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Right rail: stacked small cards with tiny images */
+    .rail {
+      display: flex;
+      flex-direction: column;
+      gap: var(--rail-gap);
+    }
+
+    .rail-item {
+      display: grid;
+      grid-template-columns: 74px 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .rail-thumb {
+      width: 74px;
+      height: 74px;
+      background: #eceef4;
+      border: 1px solid #ececf4;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .rail-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .rail .rule {
+      width: 34px;
+      height: 6px;
+      margin: 8px 0 6px;
+    }
+
+    .rail .kicker {
+      font-size: 12px;
+      margin-bottom: 6px
+    }
+
+    .rail .title {
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 1.15;
+      letter-spacing: -.005em;
+      margin: 4px 0 0;
+    }
+
+    /* Link reset */
+    a {
+      color: inherit;
+      text-decoration: none
+    }
+  </style>
+
+
+
+
+  <!-- ==============================================testimonials======================================================= -->
+
+
+  <section class="testimonials-advanced">
+    <div class="container">
+      <h2 class="section-title">What Our Students Say</h2>
+      <div class="testimonial-track">
+
+        <div class="testimonial-card">
+          <div class="card-gradient"></div>
+          <p>"This platform completely transformed my learning. Interactive lessons, real-life projects, and expert
+            guidance made me confident in my career path."</p>
+          <div class="student">
+            <img src="user_4240693.png" alt="Student">
+            <div class="student-info">
+              <h4>Sarah Williams</h4>
+              <span>Computer Science Graduate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="card-gradient"></div>
+          <p>"The mentorship program combined with advanced lessons allowed me to grow faster than I ever imagined. The
+            platform is top-tier."</p>
+          <div class="student">
+            <img src="user_4240693.png" alt="Student">
+            <div class="student-info">
+              <h4>James Miller</h4>
+              <span>High School Teacher</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="card-gradient"></div>
+          <p>"The learning experience is unmatched. From UI design to interactive exercises, every detail feels premium
+            and thoughtfully crafted."</p>
+          <div class="student">
+            <img src="user_4240693.png" alt="Student">
+            <div class="student-info">
+              <h4>Emily Clark</h4>
+              <span>Master's Student</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .testimonials-advanced {
+      padding: 120px 20px;
+      background: linear-gradient(135deg, #fdfbfb, #f0f2f7);
+      overflow: hidden;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 80px;
+      color: #111;
+    }
+
+    .testimonial-track {
+      display: flex;
+      justify-content: center;
+      /* Center cards */
+      gap: 40px;
+      flex-wrap: wrap;
+      /* Allows wrapping on smaller screens */
+    }
+
+    .testimonial-card {
+      position: relative;
+      flex: 0 0 350px;
+      background: #fff;
+      border-radius: 30px;
+      padding: 40px 30px 60px;
+      box-shadow: 0 35px 60px rgba(0, 0, 0, 0.08), 0 20px 30px rgba(0, 0, 0, 0.1);
+      /* Bottom shadow added */
+      transform: scale(0.95);
+      opacity: 0.8;
+      transition: transform 0.6s ease, opacity 0.6s ease, box-shadow 0.6s ease;
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-10px) scale(1);
+      box-shadow: 0 50px 80px rgba(255, 255, 255, 0.15), 0 25px 35px rgba(0, 0, 0, 0.2);
+    }
+
+    .testimonial-card p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #333;
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .card-gradient {
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: linear-gradient(45deg, #ffe100, #ffd000);
+      opacity: 0.15;
+      z-index: 1;
+    }
+
+    .student {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .student img {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+    }
+
+    .student-info h4 {
+      margin: 0;
+      font-weight: 600;
+    }
+
+    .student-info span {
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    /* Responsive */
+    @media(max-width: 992px) {
+      .testimonial-card {
+        flex: 0 0 300px;
+      }
+    }
+
+    @media(max-width: 576px) {
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .testimonial-card {
+        flex: 0 0 90%;
+      }
+    }
+  </style>
+
+
+
+  <!--=========================================================== Social Icons ======================================================-->
+  <!-- <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+  </div> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const carousel = document.getElementById('carousel');
+    const nextBtn = document.getElementById('next');
+    const prevBtn = document.getElementById('prev');
+
+    const cardWidth = carousel.querySelector('.card').offsetWidth + 30; // width + gap
+
+    let isAnimating = false;
+
+    function slideNext() {
+      if (isAnimating) return;
+      isAnimating = true;
+      carousel.style.transition = 'transform 0.5s ease';
+      carousel.style.transform = `translateX(-${cardWidth}px)`;
+
+      carousel.addEventListener('transitionend', function handler() {
+        carousel.style.transition = 'none';
+        carousel.appendChild(carousel.querySelector('.card'));
+        carousel.style.transform = 'translateX(0)';
+        carousel.removeEventListener('transitionend', handler);
+        isAnimating = false;
+      });
+    }
+
+    function slidePrev() {
+      if (isAnimating) return;
+      isAnimating = true;
+      const lastCard = carousel.querySelector('.card:last-child');
+      carousel.prepend(lastCard);
+      carousel.style.transition = 'none';
+      carousel.style.transform = `translateX(-${cardWidth}px)`;
+
+      requestAnimationFrame(() => {
+        carousel.style.transition = 'transform 0.5s ease';
+        carousel.style.transform = 'translateX(0)';
+      });
+
+      carousel.addEventListener('transitionend', function handler() {
+        carousel.style.transition = 'none';
+        isAnimating = false;
+        carousel.removeEventListener('transitionend', handler);
+      });
+    }
+
+    nextBtn.addEventListener('click', slideNext);
+    prevBtn.addEventListener('click', slidePrev);
+  </script>
+</body>
+
+</html>
