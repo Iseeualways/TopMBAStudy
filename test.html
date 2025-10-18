@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kerala Top Colleges Carousel</title>
+
+  <!-- Bootstrap & Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Slick Carousel CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f5f5;
+      padding: 40px;
+    }
+
+    /* Section Title */
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #1a1a1a;
+    }
+
+    .section-desc {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+      color: #555;
+    }
+
+    /* Carousel Buttons */
+    .slick-prev,
+    .slick-next {
+      background: #fff;
+      border: 2px solid #1a3b5d;
+      color: #1a3b5d;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      z-index: 10;
+    }
+
+    .slick-prev:hover,
+    .slick-next:hover {
+      background: #1a3b5d;
+      color: #fff;
+    }
+
+    /* === Cards Section === */
+    .cards-container {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      scroll-behavior: smooth;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      color: #000000;
+      flex: 0 0 auto;
+      width: 300px !important;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: all 0.5s ease;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      height: 360px;
+    }
+
+    .card-image {
+      width: 100%;
+      height: 180px;
+      overflow: hidden;
+    }
+
+    .card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .card-content {
+      padding: 15px;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      
+    }
+
+    .card h5 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+    }
+
+    .card:hover .card-image img {
+      transform: scale(1.1);
+    }
+
+    .card:hover .card-content {
+      transform: translateY(-5px);
+      opacity: 1;
+    }
+
+    /* Buttons */
+    .apply-now {
+      border-radius: 10px;
+      display: inline-block;
+      padding: 7px 12px;
+      color: #ffffff;
+      background: #fd9b28;
+      font-weight: 600;
+      border: 2px solid transparent;
+      font-size: 14px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: all 0.4s ease;
+    }
+
+    .apply-now:hover {
+      background: #fff;
+      color: #000000;
+      border-color: #fd9b28;
+    }
+
+    .view-now {
+      border-radius: 7px;
+      display: inline-block;
+      padding: 7px 12px;
+      color: #000000;
+      background: transparent;
+      font-weight: 600;
+      border: 2px solid #fd9b28;
+      font-size: 14px;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: all 0.4s ease;
+    }
+
+    .view-now:hover {
+      background: #fd9b28;
+      color: #fff;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .card {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section>
+    <h2 class="section-title">Start Your Future with Kerala’s Top Colleges</h2>
+    <p class="section-desc">Explore some of the best educational institutions in Kerala, offering world-class academics
+      and vibrant cultural experiences.</p>
+
+    <div class="college-carousel">
+      <!-- Card 1 -->
+      <div class="card mx-2">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b" alt="">
+        </div>
+        <div class="card-content">
+          <h5>St. Thomas College</h5>
+          <p><i class="fas fa-location-dot" style="color:#fd9b28;"></i> Kochi</p>
+          <button class="apply-now">Apply Now</button>
+          <button class="view-now">View More</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card mx-2">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570" alt="">
+        </div>
+        <div class="card-content">
+          <h5>Government College Thrissur</h5>
+          <p><i class="fas fa-location-dot" style="color:#fd9b28;"></i> Thrissur</p>
+          <button class="apply-now">Apply Now</button>
+          <button class="view-now">View More</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card mx-2">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="">
+        </div>
+        <div class="card-content">
+          <h5>Fatima Mata College</h5>
+          <p><i class="fas fa-location-dot" style="color:#fd9b28;"></i> Kollam</p>
+          <button class="apply-now">Apply Now</button>
+          <button class="view-now">View More</button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card mx-2">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="">
+        </div>
+        <div class="card-content">
+          <h5>Mar Ivanios College</h5>
+          <p><i class="fas fa-location-dot" style="color:#fd9b28;"></i> Kochi</p>
+          <button class="apply-now">Apply Now</button>
+          <button class="view-now">View More</button>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card mx-2 ">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b" alt="">
+        </div>
+        <div class="card-content">
+          <h5>St. Albert's College</h5>
+          <p><i class="fas fa-location-dot" style="color:#fd9b28;"></i> Ernakulam</p>
+          <button class="apply-now">Apply Now</button>
+          <button class="view-now">View More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.college-carousel').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        arrows: true,
+        prevArrow: '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+        nextArrow: '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+        responsive: [
+          { breakpoint: 992, settings: { slidesToShow: 2 } },
+          { breakpoint: 576, settings: { slidesToShow: 1 } },
+        ]
+      });
+    });
+  </script>
+
+</body>
+
+</html>
